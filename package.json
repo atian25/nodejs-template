@@ -12,7 +12,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha **/*.test.js",
+    "test": "mocha test/**/*.test.js",
     "cov": "c8 --reporter=html npm run test"
   },
   "files": [
